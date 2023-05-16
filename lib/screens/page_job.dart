@@ -31,7 +31,7 @@ class _PageJobState extends State<PageJob> {
           icon: Icon(Icons.chevron_left),
         ),
         title: Text(
-          'Occupation',
+          'Jobs',
           style: GoogleFonts.roboto(
             fontWeight: FontWeight.bold,
             color: Colors.white,
@@ -42,10 +42,10 @@ class _PageJobState extends State<PageJob> {
       ),
       body: ListView(
         children: <Widget>[
-          getPageContainer(0, 'artis.png', 'Artis',
+          getPageContainer(0, 'artis.png', 'Artist',
               'อาร์-ทิสทฺ \nนักศิลปะ, จิตรกร', Colors.redAccent.shade100),
           getPageContainer(1, 'astronaut.png', 'Astronaut',
-              'แอส-โทรนอท \nนักบินอวกาศ', Colors.blueAccent.shade700),
+              'แอส-โทรนอท \nนักบินอวกาศ', Colors.blue.shade300),
           getPageContainer(2, 'aviator.png', 'Aviator',
               'เอวิเอเทอะ \nกัปตันเครื่องบิน', Colors.blueAccent.shade200),
           getPageContainer(

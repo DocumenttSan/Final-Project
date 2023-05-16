@@ -51,7 +51,7 @@ class _PageAnimalsState extends State<PageAnimals> {
           getPageContainer(3, 'giraffe.png', 'Giraffe', 'เจอะ-ร๊าฟ \n จีราฟ',
               Colors.orange.shade200),
           getPageContainer(4, 'whale.png', 'Whale', 'เวล \n วาฬ',
-              Colors.blueAccent.shade700),
+              Colors.blueAccent.shade100),
           getPageContainer(
               5, 'shark.png', 'Shark', 'ชาค \n ฉลาม', Colors.blue.shade500),
           getPageContainer(6, 'turtle.png', 'Turle', 'เท็ล-เทิล \n เต่า',

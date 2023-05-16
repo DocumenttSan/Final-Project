@@ -45,7 +45,7 @@ class _PageBodyState extends State<PageBody> {
           getPageContainer(
               0, 'arm.png', 'Arm', 'อาม \nแขน', Colors.orangeAccent.shade100),
           getPageContainer(
-              1, 'ear.png', 'Ear', 'เอีย \nหู', Colors.yellow.shade300),
+              1, 'ear.png', 'Ears', 'เอีย \nหู', Colors.yellow.shade300),
           getPageContainer(
               2, 'eye.png', 'Eye', 'อาย \nตา', Colors.red.shade300),
           getPageContainer(

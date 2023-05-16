@@ -57,8 +57,8 @@ class _PageColorState extends State<PageColor> {
           getPageContainer(6, 'blue.png', 'Blue', 'บลู \nสีน้ำเงิน,ฟ้า',
               Colors.blueAccent.shade200),
           getPageContainer(7, 'gray.png', 'Gray', 'เกร \nสีเทา', Colors.grey),
-          getPageContainer(
-              8, 'white.png', 'White', 'ไวท์ \nสีขาว', Colors.white),
+          getPageContainer(8, 'white.png', 'White', 'ไวท์ \nสีขาว',
+              Colors.blueGrey.shade200),
           getPageContainer(9, 'black.png', 'Black', 'แบล็ค \nสีดำ',
               Color.fromARGB(255, 36, 35, 35)),
         ],
@@ -97,7 +97,7 @@ class _PageColorState extends State<PageColor> {
                         title, //title ชื่อ
                         style: GoogleFonts.roboto(
                           fontWeight: FontWeight.bold,
-                          color: Colors.blueGrey.shade500,
+                          color: Colors.white,
                           fontSize: 36,
                         ),
                       ),

@@ -1,6 +1,9 @@
 import 'package:appnedic/screens/page_colors.dart';
 import 'package:appnedic/screens/page_job.dart';
-import 'package:appnedic/screens/quiz/letter_quiz.dart';
+import 'package:appnedic/screens/quiz/quiz_animals.dart';
+import 'package:appnedic/screens/quiz/quiz_body.dart';
+import 'package:appnedic/screens/quiz/quiz_color.dart';
+import 'package:appnedic/screens/quiz/quiz_job.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:appnedic/screens/page_animals.dart';
@@ -65,8 +68,8 @@ class _HomeState extends State<Home> {
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
                         colors: [
-                          Color.fromARGB(255, 250, 138, 104),
-                          Color.fromARGB(255, 236, 74, 74),
+                          Color.fromARGB(255, 251, 156, 78),
+                          Color.fromARGB(255, 213, 53, 53),
                         ],
                       ),
                     ),
@@ -106,8 +109,8 @@ class _HomeState extends State<Home> {
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
                         colors: [
-                          Color.fromARGB(255, 250, 138, 104),
-                          Color.fromARGB(255, 236, 74, 74),
+                          Color.fromARGB(255, 182, 240, 120),
+                          Color.fromARGB(255, 51, 192, 93),
                         ],
                       ),
                     ),
@@ -147,8 +150,8 @@ class _HomeState extends State<Home> {
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
                         colors: [
-                          Color.fromARGB(255, 250, 138, 104),
-                          Color.fromARGB(255, 236, 74, 74),
+                          Color.fromARGB(255, 76, 198, 247),
+                          Color.fromARGB(255, 11, 51, 130),
                         ],
                       ),
                     ),
@@ -192,8 +195,8 @@ class _HomeState extends State<Home> {
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
                         colors: [
-                          Color.fromARGB(255, 250, 138, 104),
-                          Color.fromARGB(255, 236, 74, 74),
+                          Color.fromARGB(255, 243, 127, 229),
+                          Color.fromARGB(255, 208, 61, 98),
                         ],
                       ),
                     ),
@@ -244,7 +247,7 @@ class _HomeState extends State<Home> {
             child: InkWell(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => LetterQuiz()));
+                    MaterialPageRoute(builder: (context) => QuizAnimals()));
               },
               child: Container(
                 height: 80,
@@ -254,8 +257,8 @@ class _HomeState extends State<Home> {
                       begin: Alignment.centerLeft,
                       end: Alignment.centerRight,
                       colors: [
-                        Color.fromARGB(255, 177, 159, 0),
-                        Color.fromARGB(255, 236, 247, 144),
+                        Color.fromARGB(255, 252, 62, 62),
+                        Color.fromARGB(255, 247, 225, 82),
                       ]),
                 ),
                 child: Row(
@@ -319,7 +322,7 @@ class _HomeState extends State<Home> {
             child: InkWell(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => PageColor()));
+                    MaterialPageRoute(builder: (context) => QuizColor()));
               },
               child: Container(
                 height: 80,
@@ -329,8 +332,8 @@ class _HomeState extends State<Home> {
                       begin: Alignment.centerLeft,
                       end: Alignment.centerRight,
                       colors: [
-                        Color.fromARGB(255, 177, 159, 0),
-                        Color.fromARGB(255, 236, 247, 144),
+                        Color.fromARGB(255, 168, 6, 57),
+                        Color.fromARGB(255, 255, 136, 227),
                       ]),
                 ),
                 child: Row(
@@ -394,7 +397,7 @@ class _HomeState extends State<Home> {
             child: InkWell(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => PageJob()));
+                    MaterialPageRoute(builder: (context) => QuizJob()));
               },
               child: Container(
                 height: 80,
@@ -404,8 +407,8 @@ class _HomeState extends State<Home> {
                       begin: Alignment.centerLeft,
                       end: Alignment.centerRight,
                       colors: [
-                        Color.fromARGB(255, 177, 159, 0),
-                        Color.fromARGB(255, 236, 247, 144),
+                        Color.fromARGB(255, 84, 74, 159),
+                        Color.fromARGB(255, 116, 230, 239),
                       ]),
                 ),
                 child: Row(
@@ -469,7 +472,7 @@ class _HomeState extends State<Home> {
             child: InkWell(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => PageBody()));
+                    MaterialPageRoute(builder: (context) => QuizBody()));
               },
               child: Container(
                 height: 80,
@@ -479,8 +482,8 @@ class _HomeState extends State<Home> {
                       begin: Alignment.centerLeft,
                       end: Alignment.centerRight,
                       colors: [
-                        Color.fromARGB(255, 177, 159, 0),
-                        Color.fromARGB(255, 236, 247, 144),
+                        Color.fromARGB(255, 37, 142, 79),
+                        Color.fromARGB(255, 217, 244, 99),
                       ]),
                 ),
                 child: Row(
